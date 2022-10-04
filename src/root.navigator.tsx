@@ -11,8 +11,8 @@ export function RootNavigator() {
     return (
         <NavigationContainer>
             <Stack.Navigator>
-                <Stack.Screen options={{header: () => null}} name={Routes.FirstNavigator} component={FirstNavigator} />
-                <Stack.Screen options={{header: () => null}} name={Routes.SecondNavigator} component={SecondNavigator} />
+                <Stack.Screen options={{ header: () => null }} name={Routes.FirstNavigator} component={FirstNavigator}  />
+                <Stack.Screen options={{ header: () => null, animation: "slide_from_bottom" }} name={Routes.SecondNavigator} component={SecondNavigator} />
             </Stack.Navigator>
         </NavigationContainer>
     );

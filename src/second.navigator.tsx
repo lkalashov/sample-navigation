@@ -9,7 +9,7 @@ const Stack = createNativeStackNavigator();
 export function SecondNavigator() {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Destination screen" component={DestinationScreen} options={{ animation: "slide_from_bottom" }} />
+            <Stack.Screen name="Destination screen" component={DestinationScreen} />
         </Stack.Navigator>
     );
 }
