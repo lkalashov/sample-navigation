@@ -25,11 +25,12 @@ function SourceScreen() {
             <TouchableOpacity
                 style={{
                     height: 50,
-                    borderColor: "black",
+                    borderColor: "red",
                     borderWidth: 2,
                     alignItems: "center",
                     justifyContent: "center",
                     paddingHorizontal: 20,
+                    backgroundColor: "white",
                 }}
                 onPress={navigateToDestinationScreen}
             >
